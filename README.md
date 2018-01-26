@@ -102,7 +102,7 @@ ___
 Modify the code to make it work for angled brackets (< and >) as well.
 
 The new output for these strings containing angled brackets should look like this:
-
+```
 puts check_syntax("<html> (this)[] is some text</html>")
 true
 puts check_syntax("<html> (this)] is some text</html>")
@@ -117,3 +117,4 @@ false
 puts check_syntax("<html> [this] is some text</html")
 * You have a syntax error: the string ended without a closing >
 false
+```
